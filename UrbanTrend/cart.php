@@ -10,7 +10,7 @@
     $no_of_user_products= mysqli_num_rows($user_products_result);
     $sum=0;
     if($no_of_user_products==0){
-        //echo "Add items to cart first.";
+        
     ?>
         <script>
         window.alert("No items in the cart!!");
